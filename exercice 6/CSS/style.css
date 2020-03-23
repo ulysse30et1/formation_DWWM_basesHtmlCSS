@@ -1,0 +1,70 @@
+.rectangle
+{
+    width: 1500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+} 
+
+.rectangle1
+{
+    width: 80%;
+    height: 12.5%;
+    background-color: lawngreen;
+}
+
+.rectangle2
+{
+    width: 20%;
+    height: 12.5%;
+    background-color: darkcyan;            
+}
+
+.rectangle3
+{
+    width: 33%;
+    height: 37.5%;
+    background-color: brown;
+}
+
+.rectangle4
+{
+    width: 33%;
+    height: 18.75%;
+    background-color: chocolate;
+}
+
+.rectangle5
+{
+    width: 33%;
+    height: 18.75%;
+    background-color: darkgray;
+}
+
+.rectangle6
+{
+    width: 22%;
+    height: 18.75%;
+    background-color: darkorange;
+}
+
+.rectangle7
+{
+    width: 22%;
+    height: 18.75%;
+    background-color: deepskyblue;
+}
+
+.rectangle8
+{
+    width: 22%;
+    height: 18.75%;
+    background-color: orangered;
+}
+
+.rectangle9
+{
+    width: 100%;
+    height: 50%;
+    background-color: midnightblue;
+}
