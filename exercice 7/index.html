@@ -1,54 +1,47 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" />
-        <title>exercice 7</title>
-    </head>
 
-    <body>
-        <form>
-            <div class="case1">
-            <fieldset class="identité">
-               <legend class="legende_identite">Votre identité</legend>
-                <ol>
-                    <li>Nom : <input type="text" name="Nom" placeholder="Nom"  /></li>
-                    <li>Prénom : <input type="text" name="Prénom" placeholder="Prénom" /></li>
-                    <li>Adresse mail : <input type="text" name="Adresse mail" placeholder="Adresse mail"> </li>
-                </ol>
-            </fieldset>
-            </div>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>exercice 7</title>
+</head>
 
-            <div class="case2">
-            <fieldset class="adresse">
-                <legend class="legende_adresse">Adresse de livraison</legend>
+<body>
+    <div class="conteneur">
+        <div class="case1">
+            <form method="post">
+                <legend>Votre identité</legend>
                 <ol>
-                    <li>Adresse : <textarea name="Adresse" placeholder="Adresse"></textarea></li>
-                    <li>Code postal : <input type="text" name="Code postal" placeholder="Code postal"/></li>
-                    <li>Ville : <input type="text" name="Ville" placeholder="Ville"/></li>
+                    <li>Nom : <input type="text" placeholder="Nom" /></li>
+                    <li>Prénom : <input type="text" placeholder="Prénom" /></li>
+                    <li>Adresse mail : <input type="text" placeholder="Adresse mail" /></li>
                 </ol>
-            </fieldset>
-            </div>
+            </form>
+        </div>
 
-            <div class="case3">
-            <fieldset class="info">
-                <legend class="legende_info">Information de réglement</legend>
-                <ol>
-                    <li>Type de carte bancaire : 
-                        <form method="post" action="traitement.php">
-                            <div class="radio">
-                                <input type="radio" id="VISA" name="VISA" value="VISA" /> <label for="VISA">VISA</label> <br />
-                                <input type="radio" id="Mastercard" name="Mastercard" value="Mastercard" /> <label for="Mastercard">Mastercard</label>
-                            </div>
-                         </form>
-                    </li>
-                    <li>Numéro de carte : <input type="text" name="Numéro de carte" placeholder="Numéro de carte"/></li>
-                    <li>Code de sécurité : <input type="text" name="Code de sécurité" placeholder="Code de sécurité"/></li>
-                    <li>Nom de titulaire : <input type="text" name="Nom du titulaire" placeholder="Nom du titulaire"/></li>
-            </div>                   
-                </ol>
-            </fieldset>
+        <div class="case2">
+            <legend>Adresse de livraison</legend>
+            <ol>
+                <li>Adresse : <textarea name="Adresse" placeholder="Adresse"> </textarea></li>
+                <li>Code postal : <input type="text" placeholder="Code postal" /> </Code></li>
+                <li>Ville : <input type="text" placeholder="Ville" /></li>
+            </ol>    
+        </div>
+
+        <div class="case3">
+            <legend>Information de réglement</legend>
+            <ol>
+                <li>Type de carte bancaire : <br />
+                    <input type="radio" name="cb" value="VISA" /> <label for="VISA">VISA</label> </li>
+                    <input type="radio" name="cb" value="Mastercard" /> <label for="Mastercard">Mastercard</label> </li>
+                    <li>Numéro de carte : <input type="text" placeholder="Numéro de carte"/></li>
+                <li>Code de sécurité : <input type="text" placeholder="Code de sécurité"/></li>
+                <li>Nom du titulaire : <input type="text" placeholder="Nom du titlaire" /></li>
+            </ol>
             <input type="submit" value="J'achète" />
-        </form>
-    </body>
+        </div>
+    </div>
+</body>
+
 </html>

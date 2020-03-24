@@ -1,33 +1,24 @@
-.identité{
-    background-color: paleturquoise;
-}
-
-.adresse{
-    background-color: palegreen;
-}
-
-.info{
-    background-color: palevioletred;
-}
-
-.legende_identite{
-    background-color: paleturquoise;
-}
-
-.legende_adresse{
-    background-color: palegreen;
-}
-
-.legende_info{
-    background-color: palevioletred;
-}
-
-.case{
-    
-}
-
-form{
+.conteneur{
     height: 600px;
     width: 400px;
-    background-color: lawngreen;
+    background-color: lightsteelblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.case1{
+    height: 200px;
+    width: 400px;
+}
+
+.case2{
+    height: 200px;
+    width: 400px;
+}
+
+.case3{
+    height: 200px;
+    width: 400px;
+}
+
