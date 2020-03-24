@@ -8,24 +8,29 @@
 
     <body>
         <form>
+            <div class="case1">
             <fieldset class="identité">
                <legend class="legende_identite">Votre identité</legend>
                 <ol>
-                    <li>Nom : <input type="text" name="Nom" /></li>
-                    <li>Prénom : <input type="text" name="Prénom" /></li>
-                    <li>Adresse mail : <input type="text" name="Adresse mail"</li>
+                    <li>Nom : <input type="text" name="Nom" placeholder="Nom"  /></li>
+                    <li>Prénom : <input type="text" name="Prénom" placeholder="Prénom" /></li>
+                    <li>Adresse mail : <input type="text" name="Adresse mail" placeholder="Adresse mail"> </li>
                 </ol>
             </fieldset>
+            </div>
 
+            <div class="case2">
             <fieldset class="adresse">
                 <legend class="legende_adresse">Adresse de livraison</legend>
                 <ol>
-                    <li>Adresse : <textarea name="Adresse"></textarea></li>
-                    <li>Code postal : <input type="text" name="Code postal"/></li>
-                    <li>Ville : <input type="text" name="Ville"/></li>
+                    <li>Adresse : <textarea name="Adresse" placeholder="Adresse"></textarea></li>
+                    <li>Code postal : <input type="text" name="Code postal" placeholder="Code postal"/></li>
+                    <li>Ville : <input type="text" name="Ville" placeholder="Ville"/></li>
                 </ol>
             </fieldset>
+            </div>
 
+            <div class="case3">
             <fieldset class="info">
                 <legend class="legende_info">Information de réglement</legend>
                 <ol>
@@ -37,10 +42,10 @@
                             </div>
                          </form>
                     </li>
-                    <li>Numéro de carte : <input type="text" name="Numéro de carte"/></li>
-                    <li>Code de sécurité : <input type="text" name="Code de sécurité"/></li>
-                    <li>Nom de titulaire : <input type="text" name="Nom du titulaire"/></li>
-                    
+                    <li>Numéro de carte : <input type="text" name="Numéro de carte" placeholder="Numéro de carte"/></li>
+                    <li>Code de sécurité : <input type="text" name="Code de sécurité" placeholder="Code de sécurité"/></li>
+                    <li>Nom de titulaire : <input type="text" name="Nom du titulaire" placeholder="Nom du titulaire"/></li>
+            </div>                   
                 </ol>
             </fieldset>
             <input type="submit" value="J'achète" />
