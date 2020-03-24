@@ -1,0 +1,23 @@
+.identité{
+    background-color: paleturquoise;
+}
+
+.adresse{
+    background-color: palegreen;
+}
+
+.info{
+    background-color: palevioletred;
+}
+
+.legende_identite{
+    background-color: paleturquoise;
+}
+
+.legende_adresse{
+    background-color: palegreen;
+}
+
+.legende_info{
+    background-color: palevioletred;
+}
