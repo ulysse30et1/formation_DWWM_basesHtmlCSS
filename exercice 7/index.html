@@ -8,52 +8,45 @@
 </head>
 
 <body>
-    <div class="conteneur">
 
-        <form method="post">
+    <form method="post">
+        <div class="conteneur">
             <fieldset>
-                <div class="case1">
-                    <legend>Votre identité</legend>
-                    <ol>
-                        <li>Nom : <input type="text" placeholder="Nom" /></li>
-                        <li>Prénom : <input type="text" placeholder="Prénom" /></li>
-                        <li>Adresse mail : <input type="text" placeholder="Adresse mail" /></li>
-                    </ol>
-                </div>
+                <legend>Votre identité</legend>
+                <ol>
+                    <li><label for="Nom">Nom : </label><input class="zone" type="text" placeholder="Nom" id="Nom" /></li>
+                    <li><label for="Prénom">Prénom : </label><input class="zone" type="text" placeholder="Prénom" id="Prénom"/></li>
+                    <li><label for="Adresse_mail">Adresse mail : </label><input class="zone" type="text" placeholder="Adresse mail" id="Adresse_mail" /></li>
+                </ol>
             </fieldset>
 
             <fieldset>
-                <div class="case2">
-                    <legend>Adresse de livraison</legend>
-                    <ol>
-                        <li>Adresse : <span class="place"><textarea name="Adresse"
-                                    placeholder="Adresse"> </textarea></span>
-                        </li>
-                        <li>Code postal : <input type="text" placeholder="Code postal" /></li>
-                        <li>Ville : <input type="text" placeholder="Ville" /></li>
-                    </ol>
-                </div>
+                <legend>Adresse de livraison</legend>
+                <ol>
+                    <li><label for="Adresse">Adresse : </label><textarea name="Adresse" placeholder="Adresse" id="Adresse"></textarea></li>
+                    <li><label for="Code_postal">Code : </label><input class="zone" type="text" placeholder="Code postal" id="Code_postal" /></li>
+                    <li><label for="Ville">Ville : </label><input class="zone" type="text" placeholder="Ville" id="Ville" /></li>
+                </ol>
             </fieldset>
 
             <fieldset>
-                <div class="case3">
-                    <legend>Information de réglement</legend>
-                    <ol>
-                        <li>Type de carte bancaire : <br />
-                            <input type="radio" name="cb" value="VISA" id="VISA" /> <label for="VISA">VISA</label>
-                            <br />
-                            <input type="radio" name="cb" value="Mastercard" id="Mastercard" /> <label
-                                for="Mastercard">Mastercard</label>
-                        </li>
-                        <li>Numéro de carte : <input type="text" placeholder="Numéro de carte" /></li>
-                        <li>Code de sécurité : <input type="text" placeholder="Code de sécurité" /></li>
-                        <li>Nom du titulaire : <input type="text" placeholder="Nom du titlaire" /></li>
-                    </ol>
-                    <input type="submit" value="J'achète" />
-                </div>
+                <legend>Information de réglement</legend>
+                <ol>
+                    <li>Type de carte bancaire : <br />
+                        <input type="radio" name="cb" value="VISA" id="VISA" /> <label for="VISA">VISA</label>
+                        <br />
+                        <input type="radio" name="cb" value="Mastercard" id="Mastercard" /> <label
+                            for="Mastercard">Mastercard</label>
+                    </li>
+                    <li><label for="Numéro">Numéro de carte : </label><input class="zone" type="text" placeholder="Numéro de carte" id="Numéro" /></li>
+                    <li><label for="Code">Code de sécurité : </label><input class="zone" type="text" placeholder="Code de sécurité" id="Code" /></li>
+                    <li><label for="Nom_titulaire">Nom du titulaire : </label> <input class="zone" type="text" placeholder="Nom du titlaire" id="Nom_titulaire"/></li>
+                </ol>
+                <input type="submit" value="J'achète" />
             </fieldset>
-        </form>
-    </div>
+        </div>
+    </form>
+
 </body>
 
 </html>
