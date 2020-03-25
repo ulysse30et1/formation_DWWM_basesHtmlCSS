@@ -1,24 +1,23 @@
-.conteneur{
-    height: 600px;
+.conteneur {
+    height: 650px;
     width: 400px;
+    border-radius: 10px;
     background-color: lightsteelblue;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-content: center;
 }
 
-.case1{
+.case1 {
     height: 200px;
     width: 400px;
 }
 
-.case2{
+.case2 {
     height: 200px;
     width: 400px;
 }
 
-.case3{
+.case3 {
     height: 200px;
     width: 400px;
 }
-
