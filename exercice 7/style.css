@@ -1,23 +1,6 @@
 .conteneur {
-    height: 650px;
+    height: 550px;
     width: 400px;
     border-radius: 10px;
     background-color: lightsteelblue;
-    justify-content: center;
-    align-content: center;
-}
-
-.case1 {
-    height: 200px;
-    width: 400px;
-}
-
-.case2 {
-    height: 200px;
-    width: 400px;
-}
-
-.case3 {
-    height: 200px;
-    width: 400px;
 }
