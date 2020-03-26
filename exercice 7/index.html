@@ -9,43 +9,64 @@
 
 <body>
 
-    <form method="post">
-        <div class="conteneur">
-            <fieldset>
-                <legend>Votre identité</legend>
-                <ol>
-                    <li><label for="Nom">Nom : </label><input class="zone" type="text" placeholder="Nom" id="Nom" /></li>
-                    <li><label for="Prénom">Prénom : </label><input class="zone" type="text" placeholder="Prénom" id="Prénom"/></li>
-                    <li><label for="Adresse_mail">Adresse mail : </label><input class="zone" type="text" placeholder="Adresse mail" id="Adresse_mail" /></li>
-                </ol>
-            </fieldset>
+    <div class="conteneur">
+        <form method="post">
 
-            <fieldset>
-                <legend>Adresse de livraison</legend>
-                <ol>
-                    <li><label for="Adresse">Adresse : </label><textarea name="Adresse" placeholder="Adresse" id="Adresse"></textarea></li>
-                    <li><label for="Code_postal">Code : </label><input class="zone" type="text" placeholder="Code postal" id="Code_postal" /></li>
-                    <li><label for="Ville">Ville : </label><input class="zone" type="text" placeholder="Ville" id="Ville" /></li>
-                </ol>
-            </fieldset>
+            <div class="block1">
+                <fieldset>
+                    <legend>Votre identité</legend>
 
-            <fieldset>
-                <legend>Information de réglement</legend>
-                <ol>
-                    <li>Type de carte bancaire : <br />
-                        <input type="radio" name="cb" value="VISA" id="VISA" /> <label for="VISA">VISA</label>
-                        <br />
-                        <input type="radio" name="cb" value="Mastercard" id="Mastercard" /> <label
-                            for="Mastercard">Mastercard</label>
-                    </li>
-                    <li><label for="Numéro">Numéro de carte : </label><input class="zone" type="text" placeholder="Numéro de carte" id="Numéro" /></li>
-                    <li><label for="Code">Code de sécurité : </label><input class="zone" type="text" placeholder="Code de sécurité" id="Code" /></li>
-                    <li><label for="Nom_titulaire">Nom du titulaire : </label> <input class="zone" type="text" placeholder="Nom du titlaire" id="Nom_titulaire"/></li>
-                </ol>
-                <input type="submit" value="J'achète" />
-            </fieldset>
-        </div>
-    </form>
+                    <div class="nom"> <label class="class_label" for="Nom">Nom : </label><input class="class_input" type="text" placeholder="Nom" id="Nom" />
+                    </div>
+
+                    <div class="prenom"> <label class="class_label" for="Prénom">Prénom : </label><input class="class_input" type="text" placeholder="Prénom"
+                            id="Prénom" /> </div>
+
+                    <div cclass="class_label" lass="adresse_mail"> <label class="class_label" for="Adresse_mail">Adresse mail : </label><input class="class_input" type="text"
+                            placeholder="Adresse mail" id="Adresse_mail" /> </div>
+                </fieldset>
+            </div>
+
+            <div class="block2">
+                <fieldset>
+                    <legend>Adresse de livraison</legend>
+
+                    <label class="class_label" for="Adresse">Adresse : </label><textarea class="
+                    class_textarea" name="Adresse" placeholder="Adresse"
+                        id="Adresse"></textarea>
+
+                    <label class="class_label" for="Code_postal">Code : </label><input class="class_input" type="text" placeholder="Code postal"
+                        id="Code_postal" />
+
+                    <label class="class_label" for="Ville">Ville : </label><input class="class_input" type="text" placeholder="Ville" id="Ville" />
+                </fieldset>
+            </div>
+
+            <div class="block3">
+                <fieldset>
+                    <legend>Information de réglement</legend>
+
+                    <p>Type de carte bancaire :</p>
+
+                    <label class="class_label" for="VISA">VISA</label> <input class="class_input" type="radio" name="cb" value="VISA" id="VISA" />
+
+                    <label class="class_label" for="Mastercard">Mastercard</label> <input class="class_input" type="radio" name="cb" value="Mastercard"
+                        id="Mastercard" />
+
+                    <label class="class_label" for="Numéro">Numéro de carte : </label><input class="class_input" type="text" placeholder="Numéro de carte"
+                        id="Numéro" />
+
+                    <label class="class_label" for="Code">Code de sécurité : </label><input class="class_input" type="text" placeholder="Code de sécurité"
+                        id="Code" />
+
+                    <label class="class_label" for="Nom_titulaire">Nom du titulaire : </label><input class="class_input" type="text"
+                        placeholder="Nom du titlaire" id="Nom_titulaire" />
+                </fieldset>
+            </div>
+
+            <input type="submit" value="J'achète" />
+        </form>
+    </div>
 
 </body>
 
